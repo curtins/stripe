@@ -11,7 +11,7 @@
 <div id="wrapper">
 
 @include('partials.topbar')
-@include('partials.sidebar')
+@include('partials.sidebar')    
 
 <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -19,7 +19,7 @@
         <section class="content">
             @if(isset($siteTitle))
                 <h3 class="page-title">
-                    {{ $siteTitle }}
+                    {{ $siteTitle }} 
                 </h3>
             @endif
 
